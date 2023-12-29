@@ -13,6 +13,7 @@ formBtn.addEventListener("submit", function (e) {
   fetchInfo(input.value);
   fetchInfoRepos(input.value);
   input.value = "";
+  document.querySelector(".message").textContent = "";
 });
 
 //fecting the account info
